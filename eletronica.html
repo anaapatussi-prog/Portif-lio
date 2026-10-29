@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="Projetos de eletrônica e sistemas embarcados de Ana Beatriz Patussi Reolon.">
+
+    <title>Projetos de Eletrônica | Ana Beatriz</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Gloock&family=Poppins:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="eletronica.css">
+    <link rel="stylesheet" href="circuitos.css">
+
+</head>
+
+<body>
+
+    <nav>
+        <div class="nav-conteudo">
+
+            <a href="index.html" class="logo">
+                <span class="estrela" aria-hidden="true"></span>
+                Ana Beatriz
+            </a>
+
+            <a href="index.html" class="voltar">
+                ← Voltar ao currículo
+            </a>
+
+        </div>
+    </nav>
+
+    <header class="hero">
+
+        <video class="hero-video" autoplay muted loop playsinline>
+            <source src="imagens/fundo2.mp4" type="video/mp4">
+        </video>
+
+        <div class="hero-overlay"></div>
+
+        <div class="hero-conteudo">
+
+            <p class="pequeno">
+                PROJETOS ACADÊMICOS
+            </p>
+
+            <h1>
+                PROJETOS DE<br>
+                <span>ELETRÔNICA</span>
+            </h1>
+
+            <p class="hero-texto">
+                Desenvolvimento de projetos de automação e sistemas
+                embarcados utilizando ESP32, sensores, atuadores e
+                componentes eletrônicos.
+            </p>
+
+        </div>
+
+    </header>
+
+    <section class="introducao">
+
+        <div class="container">
+
+            <p class="etiqueta">
+                ELETRÔNICA & PROGRAMAÇÃO
+            </p>
+
+            <h2>
+                Tecnologia que<br>
+                <span>sai da tela.</span>
+            </h2>
+
+            <p>
+                Durante minha formação em Engenharia de Software, também
+                desenvolvo projetos envolvendo eletrônica, programação e
+                sistemas embarcados.
+            </p>
+
+            <p>
+                Os projetos são inicialmente simulados no Wokwi para testar
+                circuitos, conexões e códigos antes da implementação física.
+            </p>
+
+        </div>
+
+    </section>
+
+    <div class="circuit-ornament" aria-hidden="true">
+
+        <svg class="decorative-circuit"
+             viewBox="0 0 900 180"
+             fill="none">
+
+            <g stroke="currentColor"
+               stroke-width="2.5"
+               stroke-linecap="round"
+               stroke-linejoin="round">
+
+                <path d="M30 45 H190 L235 90 H380 M85 135 H220 L260 110 H380 M30 90 H155 L205 155 H310 L350 130 H380 M520 90 H655 L700 45 H870 M520 110 H640 L680 135 H820 M520 130 H560 L600 155 H740 L790 90 H870"/>
+
+                <rect x="380" y="55" width="140" height="90" rx="14"/>
+                <rect x="398" y="73" width="104" height="54" rx="7"/>
+
+                <path d="M405 55 V35 M435 55 V25 M465 55 V35 M495 55 V25 M405 145 V165 M435 145 V175 M465 145 V165 M495 145 V175"/>
+
+            </g>
+
+            <g fill="currentColor">
+                <circle cx="30" cy="45" r="5"/>
+                <circle cx="85" cy="135" r="5"/>
+                <circle cx="30" cy="90" r="5"/>
+                <circle cx="870" cy="45" r="5"/>
+                <circle cx="820" cy="135" r="5"/>
+                <circle cx="870" cy="90" r="5"/>
+            </g>
+
+            <text x="450" y="108"
+                  text-anchor="middle"
+                  fill="currentColor"
+                  font-family="monospace"
+                  font-size="22">AB</text>
+
+            <path class="energy-trail"
+                  d="M30 45 H190 L235 90 H380 M520 90 H655 L700 45 H870"/>
+
+            <path class="energy-trail energy-delay"
+                  d="M85 135 H220 L260 110 H380 M520 110 H640 L680 135 H820"/>
+
+        </svg>
+
+    </div>
+
+    <section class="projeto">
+
+        <div class="container">
+
+            <div class="projeto-titulo">
+
+                <p class="numero">01</p>
+
+                <div>
+
+                    <p class="etiqueta">
+                        SISTEMA EMBARCADO • ESP32
+                    </p>
+
+                    <h2>
+                        Alimentador<br>
+                        <span>Automático</span>
+                    </h2>
+
+                </div>
+
+            </div>
+
+            <div class="video-container">
+
+                <p class="video-placeholder">
+                    <span class="video-placeholder-icon" aria-hidden="true">▷</span>
+                    <span>Vídeo do projeto em breve</span>
+                </p>
+
+            </div>
+
+            <div class="descricao">
+
+                <h3>Doggo</h3>
+
+                <p>
+                    O Doggo é um protótipo de comedouro automático para
+                    animais desenvolvido com ESP32, célula de carga, módulo
+                    HX711 e servo motor.
+                </p>
+
+                <p>
+                    A célula de carga realiza a leitura do peso da alimentação.
+                    A partir dessa informação, o sistema pode controlar um
+                    servo motor responsável pela abertura e fechamento de uma
+                    portinhola, permitindo a liberação da ração.
+                </p>
+
+                <p>
+                    O projeto utiliza materiais simples e reutilizáveis,
+                    incluindo uma garrafa PET de 2 litros como reservatório
+                    da alimentação.
+                </p>
+
+                <div class="tecnologias">
+                    <span>ESP32</span>
+                    <span>HX711</span>
+                    <span>Célula de carga</span>
+                    <span>Servo SG90</span>
+                    <span>Wokwi</span>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <div class="circuit-ornament" aria-hidden="true">
+
+        <svg class="decorative-circuit"
+             viewBox="0 0 900 180"
+             fill="none">
+
+            <g stroke="currentColor"
+               stroke-width="2.5"
+               stroke-linecap="round"
+               stroke-linejoin="round">
+
+                <path d="M30 45 H190 L235 90 H380 M85 135 H220 L260 110 H380 M30 90 H155 L205 155 H310 L350 130 H380 M520 90 H655 L700 45 H870 M520 110 H640 L680 135 H820 M520 130 H560 L600 155 H740 L790 90 H870"/>
+
+                <rect x="380" y="55" width="140" height="90" rx="14"/>
+                <rect x="398" y="73" width="104" height="54" rx="7"/>
+
+                <path d="M405 55 V35 M435 55 V25 M465 55 V35 M495 55 V25 M405 145 V165 M435 145 V175 M465 145 V165 M495 145 V175"/>
+
+            </g>
+
+            <g fill="currentColor">
+                <circle cx="30" cy="45" r="5"/>
+                <circle cx="85" cy="135" r="5"/>
+                <circle cx="30" cy="90" r="5"/>
+                <circle cx="870" cy="45" r="5"/>
+                <circle cx="820" cy="135" r="5"/>
+                <circle cx="870" cy="90" r="5"/>
+            </g>
+
+            <text x="450" y="108"
+                  text-anchor="middle"
+                  fill="currentColor"
+                  font-family="monospace"
+                  font-size="22">AB</text>
+
+            <path class="energy-trail"
+                  d="M30 45 H190 L235 90 H380 M520 90 H655 L700 45 H870"/>
+
+            <path class="energy-trail energy-delay"
+                  d="M85 135 H220 L260 110 H380 M520 110 H640 L680 135 H820"/>
+
+        </svg>
+
+    </div>
+
+    <section class="projeto projeto-roxo">
+
+        <div class="container">
+
+            <div class="projeto-titulo">
+
+                <p class="numero">02</p>
+
+                <div>
+
+                    <p class="etiqueta">
+                        AUTOMAÇÃO • ESP32
+                    </p>
+
+                    <h2>
+                        Sensor de<br>
+                        <span>Ré para Carros</span>
+                    </h2>
+
+                </div>
+
+            </div>
+
+            <div class="f1-track" aria-hidden="true">
+                <div class="f1-lane f1-lane-top"></div>
+                <div class="f1-racer">
+                    <svg class="f1-circuit-car" viewBox="0 0 380 150" xmlns="http://www.w3.org/2000/svg" fill="none">
+
+                        <g stroke="#c9a6ff" stroke-width="3" stroke-linejoin="round" stroke-linecap="round">
+                            <path d="M24 103 H53 L73 86 H130 L157 70 H230 L258 86 H312 L333 100 H357 V113 H24 Z"/>
+                            <path d="M42 85 H76 L89 73 H133 M152 69 L171 45 H211 L231 69"/>
+                            <path d="M160 69 H236 L258 82 M77 86 H127 L144 96 H234 L250 86"/>
+                            <path d="M25 98 V63 H43 V97 M15 62 H62 M18 56 H59"/>
+                            <path d="M307 85 H341 V58 H354 V100 M322 57 H368"/>
+                            <path d="M91 99 H112 M243 100 H280"/>
+                        </g>
+
+                        <g stroke="#a76bff" stroke-width="2" stroke-linecap="round">
+                            <path d="M141 90 H160 L169 81 H213 L222 90 H244"/>
+                            <path d="M180 69 V60 M195 69 V56 M210 69 V60"/>
+                        </g>
+                        <g fill="#dfc9ff"><circle cx="141" cy="90" r="3"/><circle cx="244" cy="90" r="3"/><circle cx="180" cy="60" r="2.5"/><circle cx="210" cy="60" r="2.5"/></g>
+
+                        <g stroke="#d7bbff" stroke-width="4" fill="#1a0b30">
+                            <circle cx="91" cy="111" r="27"/><circle cx="288" cy="111" r="27"/>
+                        </g>
+                        <g class="f1-wheel" stroke="#9f65f4" stroke-width="2.5">
+                            <circle cx="91" cy="111" r="17"/><path d="M91 94 V128 M74 111 H108 M79 99 L103 123 M103 99 L79 123"/>
+                        </g>
+                        <g class="f1-wheel" stroke="#9f65f4" stroke-width="2.5">
+                            <circle cx="288" cy="111" r="17"/><path d="M288 94 V128 M271 111 H305 M276 99 L300 123 M300 99 L276 123"/>
+                        </g>
+                        <path class="f1-current" d="M24 103 H53 L73 86 H130 L157 70 H230 L258 86 H312 L333 100 H357" stroke="#f3e7ff" stroke-width="4" stroke-linecap="round"/>
+                    </svg>
+                </div>
+                <div class="f1-lane f1-lane-bottom"></div>
+            </div>
+
+            <div class="video-container">
+                <video controls playsinline preload="metadata" aria-label="Demonstração do sensor de ré">
+                    <source src="imagens/sensor-de-re.mp4" type="video/mp4">
+                    Seu navegador não suporta a reprodução deste vídeo.
+                </video>
+            </div>
+
+            <div class="descricao">
+
+                <h3>Sensor de Ré</h3>
+
+                <p>
+                    O projeto consiste em um sistema de auxílio para
+                    estacionamento utilizando ESP32, sensor ultrassônico
+                    e buzzer.
+                </p>
+
+                <p>
+                    O sensor identifica a distância entre o veículo e um
+                    objeto próximo. A partir da distância detectada, o
+                    sistema controla o buzzer de acordo com as condições
+                    programadas.
+                </p>
+
+                <p>
+                    Dessa forma, quanto menor a distância identificada,
+                    maior pode ser a frequência dos alertas sonoros,
+                    auxiliando o motorista durante a aproximação.
+                </p>
+
+                <div class="tecnologias">
+                    <span>ESP32</span>
+                    <span>Sensor ultrassônico</span>
+                    <span>Buzzer</span>
+                    <span>Wokwi</span>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <div class="circuit-ornament" aria-hidden="true">
+
+        <svg class="decorative-circuit"
+             viewBox="0 0 900 180"
+             fill="none">
+
+            <g stroke="currentColor"
+               stroke-width="2.5"
+               stroke-linecap="round"
+               stroke-linejoin="round">
+
+                <path d="M30 45 H190 L235 90 H380 M85 135 H220 L260 110 H380 M30 90 H155 L205 155 H310 L350 130 H380 M520 90 H655 L700 45 H870 M520 110 H640 L680 135 H820 M520 130 H560 L600 155 H740 L790 90 H870"/>
+
+                <rect x="380" y="55" width="140" height="90" rx="14"/>
+                <rect x="398" y="73" width="104" height="54" rx="7"/>
+
+                <path d="M405 55 V35 M435 55 V25 M465 55 V35 M495 55 V25 M405 145 V165 M435 145 V175 M465 145 V165 M495 145 V175"/>
+
+            </g>
+
+            <g fill="currentColor">
+                <circle cx="30" cy="45" r="5"/>
+                <circle cx="85" cy="135" r="5"/>
+                <circle cx="30" cy="90" r="5"/>
+                <circle cx="870" cy="45" r="5"/>
+                <circle cx="820" cy="135" r="5"/>
+                <circle cx="870" cy="90" r="5"/>
+            </g>
+
+            <text x="450" y="108"
+                  text-anchor="middle"
+                  fill="currentColor"
+                  font-family="monospace"
+                  font-size="22">AB</text>
+
+            <path class="energy-trail"
+                  d="M30 45 H190 L235 90 H380 M520 90 H655 L700 45 H870"/>
+
+            <path class="energy-trail energy-delay"
+                  d="M85 135 H220 L260 110 H380 M520 110 H640 L680 135 H820"/>
+
+        </svg>
+
+    </div>
+
+    <section class="projeto">
+
+        <div class="container">
+
+            <div class="projeto-titulo">
+
+                <p class="numero">03</p>
+
+                <div>
+
+                    <p class="etiqueta">
+                        VISÃO COMPUTACIONAL • ARDUINO
+                    </p>
+
+                    <h2>
+                        Controle de LEDs<br>
+                        <span>com as Mãos</span>
+                    </h2>
+
+                </div>
+
+            </div>
+
+            <div class="video-container">
+                <video controls playsinline preload="metadata" aria-label="Demonstração do controle de LEDs com as mãos">
+                    <source src="imagens/sensor-mao.mp4" type="video/mp4">
+                    Seu navegador não suporta a reprodução deste vídeo.
+                </video>
+            </div>
+
+            <div class="descricao">
+
+                <h3>
+                    Controle de LEDs com Reconhecimento de Gestos
+                </h3>
+
+                <p>
+                    O projeto utiliza Python, visão computacional
+                    e Arduino para reconhecer os movimentos dos
+                    dedos de uma mão e controlar LEDs de acordo com os
+                    dedos identificados.
+                </p>
+
+                <p>
+                    A câmera captura os movimentos da mão em
+                    tempo real. Utilizando as bibliotecas OpenCV
+                    e MediaPipe, o programa identifica os pontos
+                    de referência dos dedos e analisa quais
+                    estão abertos ou fechados.
+                </p>
+
+                <p>
+                    Essas informações são enviadas pelo Python
+                    ao Arduino por meio da comunicação serial.
+                    O Arduino interpreta os comandos recebidos
+                    e acende ou apaga os LEDs correspondentes
+                    aos dedos identificados.
+                </p>
+
+                <p>
+                    O projeto integra programação, eletrônica
+                    e visão computacional, demonstrando a
+                    comunicação entre software e hardware.
+                </p>
+
+                <div class="tecnologias">
+                    <span>Arduino</span>
+                    <span>Python</span>
+                    <span>OpenCV</span>
+                    <span>MediaPipe</span>
+                    <span>Comunicação Serial</span>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="final">
+
+        <div class="container">
+
+            <p class="etiqueta">
+                MAIS SOBRE MIM
+            </p>
+
+            <h2>
+                Quer conhecer<br>
+                <span>meu currículo?</span>
+            </h2>
+
+            <a href="index.html" class="botao">
+                ← Voltar ao currículo
+            </a>
+
+        </div>
+
+    </section>
+
+    <footer>
+
+        <span class="estrela" aria-hidden="true"></span>
+
+        <p>
+            © 2026 Ana Beatriz Patussi Reolon
+        </p>
+
+    </footer>
+
+</body>
+</html>
